@@ -1,5 +1,5 @@
 {
-  "name": "migrate-mongoose",
+  "name": "@paays/migrate-mongoose",
   "version": "4.0.0",
   "description": "A mongoose based migration framework for node",
   "main": "./src/lib.js",
@@ -37,5 +37,8 @@
   },
   "devDependencies": {
     "np": "^10.0.7"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
